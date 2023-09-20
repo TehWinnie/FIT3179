@@ -53,7 +53,7 @@
       },
       "encoding": {
         "color": {
-          "field": "15-49 years", // Change the age group here
+          "field": "15-49 years", 
           "type": "quantitative",
           "scale": {
             "type": "sqrt",
@@ -61,7 +61,7 @@
             "range": ["white", "red"]
           },
           "legend": {
-            "title": "Total Deaths 15-49 years" // Change the legend title
+            "title": "Total Deaths 15-49 years"
           }
         },
         "tooltip": [
@@ -71,9 +71,9 @@
             "title": "Country"
           },
           {
-            "field": "15-49 years", // Change the age group here
+            "field": "15-49 years", 
             "type": "quantitative",
-            "title": "Total Deaths 15-49 years" // Change the tooltip title
+            "title": "Total Deaths 15-49 years"
           }
         ]
       }
