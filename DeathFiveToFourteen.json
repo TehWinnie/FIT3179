@@ -5,14 +5,14 @@
   "height": 350,
   "projection": { "type": "equalEarth" },
   "data": {
-    "url": "js/worldmap.json",
+    "url": "https://raw.githubusercontent.com//TehWinnie/FIT3179/main/js/worldmap.json",
     "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
   },
   "transform": [
     {
       "lookup": "properties.NAME",
       "from": {
-        "data": { "url": "data/chocolate_bars.csv" },
+        "data": { "url": "https://raw.githubusercontent.com/TehWinnie/FIT3179/main/data/03_cancer-death-rates-by-age.csv" },
         "key": "Entity",
         "fields": [
           "Deaths - Neoplasms - Sex: Both - Age: Under 5 (Rate)",
