@@ -28,7 +28,7 @@
   "layer": [
     {
       "data": {
-        "values": [], // Replace with filtered data for this attribute
+        "values": [], 
         "format": { "type": "json" }
       },
       "mark": { "type": "geoshape", "stroke": "black", "strokeWidth": 0.5 },
