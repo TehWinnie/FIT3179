@@ -15,7 +15,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "path/to/your/aggregated_data_for_under_5.csv",
+              "url": "data/03 cancer-death-rates-by-age.csv",
               "format": {"type": "csv"}
             },
             "key": "Entity",
