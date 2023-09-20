@@ -24,7 +24,7 @@
         "fields": [
           "Deaths - Neoplasms - Sex: Both - Age: Under 5 (Rate)",
           "Deaths - Neoplasms - Sex: Both - Age: 5-14 years (Rate)",
-          "Deaths - Neoplasms - Sex: Both - Age: 15-49 years (Rate)", // Change the age group here
+          "Deaths - Neoplasms - Sex: Both - Age: 15-49 years (Rate)", 
           "Deaths - Neoplasms - Sex: Both - Age: 50-69 years (Rate)",
           "Deaths - Neoplasms - Sex: Both - Age: 70+ years (Rate)"
         ]
