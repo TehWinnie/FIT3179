@@ -28,20 +28,20 @@
   "layer": [
     {
       "data": {
-        "values": [], 
+        "values": [], // Replace with filtered data for this attribute
         "format": { "type": "json" }
       },
       "mark": { "type": "geoshape", "stroke": "black", "strokeWidth": 0.5 },
       "encoding": {
         "color": {
-          "field": "15-49 years",
+          "field": "5-14 years",
           "type": "quantitative",
           "scale": { "type": "sqrt", "domain": [0, 5000], "range": ["white", "red"] },
-          "legend": { "title": "Total Deaths 15-49 years" }
+          "legend": { "title": "Total Deaths 5-14 years" }
         },
         "tooltip": [
           { "field": "properties.NAME", "type": "nominal", "title": "Country" },
-          { "field": "15-49 years", "type": "quantitative", "title": "Total Deaths 15-49 years" }
+          { "field": "5-14 years", "type": "quantitative", "title": "Total Deaths 5-14 years" }
         ]
       }
     }
