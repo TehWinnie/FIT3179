@@ -25,7 +25,7 @@
           "Deaths - Neoplasms - Sex: Both - Age: Under 5 (Rate)",
           "Deaths - Neoplasms - Sex: Both - Age: 5-14 years (Rate)",
           "Deaths - Neoplasms - Sex: Both - Age: 15-49 years (Rate)",
-          "Deaths - Neoplasms - Sex: Both - Age: 50-69 years (Rate)", // Change the age group here
+          "Deaths - Neoplasms - Sex: Both - Age: 50-69 years (Rate)", 
           "Deaths - Neoplasms - Sex: Both - Age: 70+ years (Rate)"
         ]
       },
@@ -33,7 +33,7 @@
         "Under5",
         "5-14 years",
         "15-49 years",
-        "50-69 years", // Change the age group here
+        "50-69 years",
         "70+ years"
       ]
     }
@@ -53,7 +53,7 @@
       },
       "encoding": {
         "color": {
-          "field": "50-69 years", // Change the age group here
+          "field": "50-69 years", 
           "type": "quantitative",
           "scale": {
             "type": "sqrt",
@@ -61,7 +61,7 @@
             "range": ["white", "red"]
           },
           "legend": {
-            "title": "Total Deaths 50-69 years" // Change the legend title
+            "title": "Total Deaths 50-69 years"
           }
         },
         "tooltip": [
@@ -71,12 +71,13 @@
             "title": "Country"
           },
           {
-            "field": "50-69 years", // Change the age group here
+            "field": "50-69 years", 
             "type": "quantitative",
-            "title": "Total Deaths 50-69 years" // Change the tooltip title
+            "title": "Total Deaths 50-69 years"
           }
         ]
       }
     }
   ]
 }
+
