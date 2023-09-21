@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Total Average Cancer Deaths Rate (1990 ~ 2019) - Age: 15-49 years",
+  "title": "Total Average Cancer Deaths Rate (1990 ~ 2019) per 100,000 people - Age: 15-49 years",
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
